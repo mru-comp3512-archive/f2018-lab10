@@ -47,3 +47,14 @@ ul#galleryList li {
     margin-bottom: 0.25rem;
     cursor: pointer;
 }
+div.a section {
+    display: none;		/* programmatically change this to "grid" when gallery clicked */
+    grid-gap: 5px;
+    grid-template-columns: 10rem auto;	
+}
+div.b section {
+    display: none;	  /* go ahead and change this to "block" when you have received data */
+}
+div.c section {
+    display: none;    /* programmatically change this to "block" when gallery clicked */
+}
